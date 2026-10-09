@@ -19,7 +19,7 @@ title: Tech Notes # the main title
 tagline: Think. Learn. Share. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Keep learning.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -29,7 +29,7 @@ github:
   username: nardis0321 # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -219,7 +219,7 @@ exclude:
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
-    category: [notes]
+    category: category
     tag: tag
   permalinks:
     tag: /tags/:name/
